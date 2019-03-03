@@ -1,0 +1,19 @@
+<!-- MENU ITEM -->
+                        <li class="parent">
+                          <a href="index.html" ><div class="main-menu-title">Home</div></a>  
+                        </li>	
+
+                        <!-- MENU ITEM -->
+                        <li class="parent">
+                          <a href="portfolio.html" ><div class="main-menu-title">Portfolio</div></a>  
+                        </li>	
+
+                        <!-- MENU ITEM -->
+                        <li class="parent">
+                          <a href="services.html" ><div class="main-menu-title">Services</div></a>  
+                        </li>		
+
+                        <!-- MENU ITEM -->
+                        <li class="parent">
+                          <a href="blog.html" ><div class="main-menu-title">Blog</div></a>  
+                        </li>	
