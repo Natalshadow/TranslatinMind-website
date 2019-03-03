@@ -11,7 +11,7 @@
 <html>
  	<head>
 		<title>Elementy - Responsive HTML5 Template</title>
-		<meta charset="utf-8" >
+		<meta charset="utf-8">
 		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 		<meta name="robots" content="index, follow" > 
 		<meta name="keywords" content="HTML5 Template" > 
@@ -99,7 +99,7 @@
 				<![endif]-->
 				
 				<!-- HEADER 1 FONT BLACK TRANSPARENT -->
-				<header id="nav" class="header header-1 header-shop">
+				<header id="nav" class="header header-1 bg-gray">
 				  <div class="header-wrapper">
 					<div class="container-m-30 clearfix">
 					  <div class="logo-row">
@@ -357,7 +357,7 @@
                         </li>					
                         
                         <!-- MENU ITEM -->
-                        <li class="parent">
+                        <li class="parent current">
                           <a href="#" class="open-sub"><div class="main-menu-title">Portfolio</div></a>
                           <ul class="sub">
                             <li><a href="index-portfolio.html">Home - Portfolio 1</a></li>
@@ -409,9 +409,9 @@
                               </ul>
                             </li>
                             <li class="parent">
-                              <a href="#" class="open-sub">Portfolio Single</a>
+                              <a href="#" class="current open-sub">Portfolio Single</a>
                               <ul class="sub">
-                                <li><a href="portfolio-single1.html">Single 1</a></li>
+                                <li><a class="current" href="portfolio-single1.html">Single 1</a></li>
                                 <li><a href="portfolio-single2.html">Single 2</a></li>
                                 <li><a href="portfolio-single3.html">Single 3</a></li>
                                 <li><a href="portfolio-single4.html">Single 4</a></li>
@@ -467,21 +467,21 @@
                         </li>
                         
                         <!-- MEGA MENU ITEM -->
-                        <li class="parent current megamenu">
+                        <li class="parent megamenu">
                           <a href="#" class="open-sub"><div class="main-menu-title">Pages</div></a>
                           <ul class="sub">
                             <li>
                             
                               <div class="menu-sub-container">
                                 
-                                <div class="box col-md-3 nofloat closed current">
+                                <div class="box col-md-3 nofloat closed">
                                   <h5 class="title open-sub">Pages 01</h5>
                                   <ul>
                                     <li><a href="typography.html">Typography</a></li>
                                     <li><a href="grid-system.html">Grid System</a></li>
                                     <li><a href="services.html">Services</a></li>
                                     <li><a href="services2.html">Services 2</a></li>
-                                    <li><a class="current" href="login.html">Login / Register</a></li>
+                                    <li><a href="login.html">Login / Register</a></li>
                                   </ul>
                                 </div>
                                 
@@ -592,8 +592,6 @@
 					</div>
 					<!-- END main-menu-container -->
 					
-          <div class="cd-header-buttons header-cart-cont"><a href="login.html" class="icon_cart_wrap"title="Login"><i aria-hidden="true" class="icon_profile"></i></a></div>
-          
 					<!-- SEARCH READ DOCUMENTATION -->
 					<ul class="cd-header-buttons">
 						<li><a class="cd-search-trigger" href="#cd-search"><span></span></a></li>
@@ -608,128 +606,269 @@
 				  <!-- END header-wrapper -->
 				  
 				</header>
-        
-        <!-- COTENT CONTAINER -->
-        <div class="container p-160-cont">
-        
-          <!-- LOGIN / REGISTER CONTAINER -->
-          <div class="row">
-            
-            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 tabs-6">
+       
+        <!-- PAGE TITLE LARGE 5 ABSOLUTE GRAY -->
+        <div class="page-title-large5-cont bg-gray">
+          <div class="container relative">
+         	  <div class="page-title-large5-text-cont">
+         	  	<div>
+         	  	  <h1 class="page-title5">Single project page</h1>
+         	  	</div>
+         	  </div>
+          </div>
+        </div>
   
-              <!-- NAV TABS -->
-              <div class="">
-                <ul class="nav nav-tabs bootstrap-tabs mb-0">
+				<!-- CONTENT -->
+				<div class="page-section p-140-cont pb-50">
+					<div class="container">
+          
+            <!-- IMG -->
+            <div class="post-prev-img mb-50">
+              <img src="images/blog/post-wide-12.jpg" alt="img"></a>
+            </div>
+            
+            <!-- PROJECT DETAILS & TEXT -->
+            <div class="row">
+            
+              <!-- PROJECT DETAILS -->	
+              <div class="col-md-3 mb-50">
+                
+                <!-- PROJECT DETAILS -->
+                <div class="port-detail-cont mb-30">
                   
-                  <li class="active">
-                    <a href="#login-link" data-toggle="tab">Login</a>
-                  </li>
+                  <div class="port-detail font-poppins mb-20">
+                    <p>
+                      <strong class="font-black">Client:</strong>
+                        Envato
+                    </p>
+                    <p>
+                      <strong class="font-black">Date:</strong>
+                        10 October, 2018
+                    </p>
+                    <p>
+                      <strong class="font-black">Skills:</strong>
+                        <a href="#">Design</a>, <a href="#">Development</a>
+                    </p>
+                    <p>
+                      <strong class="font-black">Demo:</strong>
+                      <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" target="_blank">www.abc-studio.com</a>
+                    </p>
+                  </div>
                   
-                  <li>
-                    <a href="#reg-link" data-toggle="tab">Registration</a>
-                  </li>
+                  <div class="mt-15">
+                    <a class="pl-0 p-5" href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="p-5" href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="p-5" href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
+                    <a class="p-5" href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  </div>
                   
-                </ul>
+                </div>
+              
+							</div>
+              
+              <!-- TEXT -->
+							<div class="col-md-9 mb-50">
+                <p class="text-highlight mb-30">Maecenas volutpat, diam enim sagittis uam, id porta ulamis. Sed id dolor consectetur fermentum nibh vomat,  ata umasnu purus. Maecenas volutpat, diam enim sagittis quam, id prta quam. Sed id dolor consectetur. Loremus fermentum nibh volutpat, accumsan purus.</p>
+                <p>Perspiciatis unde omnis iste natus error sit voluptatem accus anum doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Cras tellus enim, sagittis aer varius faucibus, molestie in dolor. Mauris molliadipisg elit, in vulputate est volutpat vitae.</p>
+                <h4 class="font-open-sans"><strong>Maecenas volutpat</strong></h4>
+                <p>Cras tellus enim, sagittis aer varius faucibus, molestie in dolor. Mauris molliadipisg elit, in vulputate est volutpat vitae. Pellentesque convallis nisl sit amet lacus luctus vel consequat ligula suscipit. Aliquam et metus sed tortor eleifend pretium non id urna. Fusce in augue leo, sed cursus nisl. Nullam vel tellus massa. Vivamus porttitor rutrum libero ac mattis. Aliquam congue malesuada mauris vitae dignissim.</p>
+							</div>
+              
+						</div>
+            
+            <!-- IMG & DESCRIPTION -->
+            <div class="row">
+            <!-- ITEMS GRID -->
+              <ul class="port-grid masonry clearfix" id="items-grid">
+                
+                <!-- Item big -->
+                <li class="port-item mix design lightbox-item">
+                  <a href="images/portfolio/projects-23-big-box.jpg" class="lightbox">
+                    <div class="port-img-overlay">
+                      <img class="port-main-img" src="images/portfolio/projects-23-big-box.jpg" alt="img" >
+                    </div>
+                    <div class="port-overlay-cont">
+                      <div class="port-btn-cont">
+                        <div aria-hidden="true" class="icon_search"></div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                                             
+                <!-- Item -->
+                <li class="port-item mix design lightbox-item">
+                  <a href="images/portfolio/projects-20-box.jpg" class="lightbox">
+                    <div class="port-img-overlay">
+                      <img class="port-main-img" src="images/portfolio/projects-20-box.jpg" alt="img" >
+                    </div>
+                    <div class="port-overlay-cont">
+                      <div class="port-btn-cont">
+                        <div aria-hidden="true" class="icon_search"></div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                         
+                <!-- Item big -->
+                <li class="port-item mix design lightbox-item">
+                  <a href="images/portfolio/projects-24-big-box.jpg" class="lightbox">
+                    <div class="port-img-overlay">
+                      <img class="port-main-img" src="images/portfolio/projects-24-big-box.jpg" alt="img" >
+                    </div>
+                    <div class="port-overlay-cont">
+                      <div class="port-btn-cont">
+                        <div aria-hidden="true" class="icon_search"></div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+                <!-- Item -->
+                <li class="port-item mix design lightbox-item">
+                  <a href="images/portfolio/projects-22-box.jpg" class="lightbox">
+                    <div class="port-img-overlay">
+                      <img class="port-main-img" src="images/portfolio/projects-22-box.jpg" alt="img" >
+                    </div>
+                    <div class="port-overlay-cont">
+                      <div class="port-btn-cont">
+                        <div aria-hidden="true" class="icon_search"></div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                               
+                <!-- Item -->
+                <li class="port-item mix design lightbox-item">
+                  <a href="images/portfolio/projects-21-box.jpg" class="lightbox">
+                    <div class="port-img-overlay">
+                      <img class="port-main-img" src="images/portfolio/projects-21-box.jpg" alt="img" >
+                    </div>
+                    <div class="port-overlay-cont">
+                      <div class="port-btn-cont">
+                        <div aria-hidden="true" class="icon_search"></div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                
+                <!-- Item -->
+                <li class="port-item mix design lightbox-item">
+                  <a href="images/portfolio/projects-25-box.jpg" class="lightbox">
+                    <div class="port-img-overlay">
+                      <img class="port-main-img" src="images/portfolio/projects-25-box.jpg" alt="img" >
+                    </div>
+                    <div class="port-overlay-cont">
+                      <div class="port-btn-cont">
+                        <div aria-hidden="true" class="icon_search"></div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
+              </ul>
+                
+            </div>
+            
+            <!-- TEXT -->
+            <div class="row mb-50">
+              <div class="col-md-9 col-md-offset-3 mt-30">
+                <blockquote class="mb-40 mt-40">
+                    <p>Sed vitae fermentum diam, eget sollicitudin felis. Vestibulum massa       	  arcu, tempor sit amet mollis ac, eleifend auctor turpis Pellentesque feu giat quis turpis quis bibendum</p>
+                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+                <p>Cras tellus enim, sagittis aer varius faucibus, molestie in dolor. Mauris molliadipisg elit, in vulputate est volutpat vitae. Pellentesque convallis nisl sit amet lacus luctus vel consequat ligula suscipit. Aliquam et metus sed tortor eleifend pretium non id urna. Fusce in augue leo, sed cursus nisl. Nullam vel tellus massa. Vivamus porttitor rutrum libero ac mattis. Aliquam congue malesuada mauris vitae dignissim.</p>
+              </div>
+            </div>
+         
+          </div><!-- container end -->
+          
+          <!-- IMG FULLSCREEN -->
+          <img src="images/portfolio/projects-fullscreen.jpg" alt="img" style="width:100%">
+          
+          <!-- TEXT & INFO -->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-md-offset-3 mt-30">
+              
+                <!-- TEXT -->
+                <div class="mb-80">
+                	<h4 class="font-open-sans"><strong>Fusce in augue</strong></h4>
+                	<p>Cras tellus enim, sagittis aer varius faucibus, molestie in dolor. Mauris molliadipisg elit, in vulputate est volutpat vitae. Pellentesque convallis nisl sit amet lacus luctus vel consequat ligula suscipit. Aliquam et metus sed tortor eleifend pretium non id urna. Fusce in augue leo, sed cursus nisl. Nullam vel tellus massa. Vivamus porttitor rutrum libero ac mattis. Aliquam congue malesuada mauris vitae dignissim.</p>
+
+                	<p>Pellentesque venenatis tellus non purus tincidunt vitae ultrices tellus eleifend. Praesent quam augue, accumsan nec tempus dapibus, pharetra ac lacus. Nunc eleifend consequat justo id dapibus. In ut consequat massa. Nunc scelerisque suscipit leo nec imperdiet. </p>
+
+                </div>
+
+              </div>
+            </div>
+            
+            <!-- DIVIDER -->
+            <hr class="mt-0 mb-0">
+            
+            <!-- WORK NAVIGATION -->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="work-navigation clearfix">
+                  <a href="#" class="work-prev"><span><span class="icon icon-arrows-left"></span>&nbsp;Prev</span></a>
+                  <a href="#" class="work-all"><span>All</span></a>
+                  <a href="#" class="work-next"><span>Next&nbsp;<span class="icon icon-arrows-right"></span></span></a>
+                </div>
+              </div>
+            </div>
+         
+            <!-- DIVIDER -->
+            <hr class="mt-0 mb-0">
+                    
+            <!-- RELATED POSTS -->
+            <h4 class="blog-page-title mt-50">Related Projects</h4>
+            <div class="row related-posts">
+            
+              <!-- Post Item 1 -->
+              <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" >
+                  
+                <div class="post-prev-img">
+                  <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-1.jpg" alt="img"></a>
+                </div>
+                  
+                <div class="post-prev-title">
+                  <h3><a href="blog-single-sidebar-right.html">Time For Minimalism</a></h3>
+                </div>
+
               </div>
               
-              <!-- TAB PANELS --> 
-              <div class="tab-content tab6-cont">
-                
-                <div class="tab-pane fade in active" id="login-link">
+              <!-- Post Item 2 -->
+              <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" data-wow-delay="200ms" >
                   
-                    <!-- LOGIN FORM -->                            
-                    <form id="login-form">
-                      
-                      <!-- INPUTS -->
-                      <div class="row mt-15">
-                        
-                        <!-- USERNAME -->
-                        <div class="col-md-12 mb-15">
-                          <input type="text" name="username" id="username" class="form-control" placeholder="Username">
-                        </div>
-                        
-                        <!-- PASSWORD -->
-                        <div class="col-md-12 mb-30 mb-sm-15">
-                          <input type="password" name="password" id="password" class="form-control" placeholder="Password">
-                        </div>
-                            
-                      </div>
-                      
-                      <!-- BUTTONS -->
-                      <div class="row">
-                        <div class="col-md-6 text-sm-center mb-20 mb-sm-10">
-                          <a class="pt-10" href="#"><small>Forgot password?</small></a>
-                        </div>
-                        
-                        <div class="col-md-6 mb-20 text-sm-center text-right">
-                          <input id="remember-me" name="rememberme" type="checkbox" style="vertical-align:middle; margin:0" value="true">
-                          <label class="font-norm" for="remember-me"><small>Remember me</small></label>
-                        </div>
-      
-                        <div class="col-md-12">
-                          <input type="submit" value="LOGIN" class="button rounded medium gray font-open-sans btn-block">
-                        </div>
-                      </div>
-                      
-                    </form>
-                    
-                    <!-- SOCIAL LOGIN -->
-                    <h5 class="text-center font-open-sans">or login with</h5>
-                    <div class="row mb-20">
-                      <div class="col-sm-6 mb-15"><a class="button medium color-facebook rounded btn-block text-center plr-0" href="#">FACEBOOK</a></div>
-                      <div class="col-sm-6 mb-15"><a class="button medium color-twitter rounded btn-block text-center plr-0" href="#">TWITTER</a></div>
-                    </div>
-                    <!-- END LOGIN FORM -->
-                  
+                <div class="post-prev-img">
+                  <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-2.jpg" alt="img"></a>
                 </div>
-                
-                <div class="tab-pane fade" id="reg-link">
                   
-                  <!-- REGISTRY FORM -->   
-                  <form id="reg-form">
-                      <div class="row mt-15">
-                        
-                        <!-- EMAIL -->
-                        <div class="col-md-12 mb-15">
-                          <input type="text" name="Email" id="Email" class="form-control" placeholder="Email">
-                        </div>
-                        
-                        <!-- USERNAME -->
-                        <div class="col-md-12 mb-15">
-                          <input type="text" name="username" id="username" class="form-control" placeholder="Username">
-                        </div>
-                        
-                        <!-- PASSWORD -->
-                        <div class="col-md-12 mb-15">
-                          <input type="password" name="password" id="password" class="form-control" placeholder="Password">
-                        </div>
-                        
-                        <!-- RE-ENTER PASSWORD -->
-                        <div class="col-md-12 mb-40 mb-sm-30">
-                          <input type="password" name="re-password" id="re-password" class="form-control" placeholder="Re-enter Password">
-                        </div>
-                        
-                        <!-- SEND BUTTON -->
-                        <div class="col-md-12 mb-20">
-                          <input type="submit" value="REGISTER" class="button rounded medium gray font-open-sans btn-block mb-15">
-                        </div>
-                            
-                      </div>
-                     
-                  </form>
-                  <!-- END REGISTRY FORM -->
-                  
+                <div class="post-prev-title">
+                  <h3><a href="blog-single-sidebar-right.html">New Trends In Web Design</a></h3>
                 </div>
-                
-              </div>   
-          
-            </div>   
-        
-          </div>
-          
-        </div>
+
+              </div>
+              
+              <!-- Post Item 3 -->
+              <div class="col-sm-6 col-md-4 col-lg-4 wow fadeIn pb-50" data-wow-delay="400ms" >
+                  
+                <div class="post-prev-img">
+                  <a href="blog-single-sidebar-right.html"><img src="images/blog/post-prev-3.jpg" alt="img"></a>
+                </div>
+                  
+                <div class="post-prev-title">
+                  <h3><a href="blog-single-sidebar-right.html">The Sound Of Life</a></h3>
+                </div>
+
+              </div>
+              
+            </div>
          
-        <!-- FOOTER 4 BLACK POSTS -->
+          </div><!-- container end -->
+
+				</div><!-- page section end -->
+
+        <!-- FOOTER 4 BLACK -->
         <footer id="footer4" class="page-section pt-95 pb-50 footer2-black">
           <div class="container">
             <div class="row">
@@ -778,34 +917,29 @@
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
               </div>
-              <div class="col-md-3 col-sm-3 widget">
-                <h4>Recent Posts</h4>
-                <div id="post-list-footer">
-
-                  <div class="post-prev-title">
-                    <h3><a class="a-text"  href="blog-single-sidebar-right.html">New trends in web design</a></h3>
-                  </div>
-                  <div class="post-prev-info">
-                    Jule 10
-                  </div>
-                   
-                  <div class="post-prev-title">
-                    <h3><a class="a-text"  href="blog-single-sidebar-right.html">The sound of life</a></h3>
-                  </div>
-                  <div class="post-prev-info">
-                    October 10
-                  </div>
-                   
-                  <div class="post-prev-title">
-                    <h3><a class="a-text"  href="blog-single-sidebar-right.html">Time for minimalism</a></h3>
-                  </div>
-                  <div class="post-prev-info">
-                     September 21
-                  </div>
-
-                </div>                  
-              </div>
               
+              <div class="col-md-3 col-sm-3 widget">
+                <h4>Newsletter</h4>
+                
+                <!-- NEWS LETTER 2 -->
+                <div class="relative">
+                  <div id="mc_embed_signup" class="nl-form-container clearfix">
+                    <form action="http://abcgomel.us9.list-manage.com/subscribe/post-json?u=ba37086d08bdc9f56f3592af0&amp;id=e38247f7cc&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletterform2 validate" target="_blank" novalidate>   <!-- EDIT THIS ACTION URL (add "post-json?u" instead of "post?u" and appended "&amp;c=?" to the end of this URL) -->
+                      <input type="email" value="" name="EMAIL" class="email nl2-email-input" id="mce-EMAIL" placeholder="Email address" required>
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;"><input type="text" name="b_ba37086d08bdc9f56f3592af0_e38247f7cc" tabindex="-1" value=""></div>
+
+                      <button id="mc-embedded-subscribe" class="nl2-btn" type="submit" name="subscribe">
+                        <span class="icon icon-arrows-slim-right"></span>
+                      </button>
+                      
+                    </form>
+                    <div id="notification_container"  ></div>
+                  </div>
+                </div>                  
+                
+              </div>
+            
             </div>    
             
             <!-- SUB FOOTER -->
@@ -849,10 +983,15 @@
 		<script src="js/jquery.magnific-popup.min.js"></script>    
     
     <!-- PORTFOLIO SCRIPTS -->
+    <script  src="js/isotope.pkgd.min.js"></script>
     <script  src="js/imagesloaded.pkgd.min.js"></script>
+    <script  src="js/masonry.pkgd.min.js"></script>
     
     <!-- APPEAR -->    
     <script  src="js/jquery.appear.js"></script>
+
+    <!-- OWL CAROUSEL -->    
+    <script  src="js/owl.carousel.min.js"></script>
     
     <!-- MAIN SCRIPT -->
 		<script src="js/main.js"></script>
