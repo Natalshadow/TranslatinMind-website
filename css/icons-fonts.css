@@ -723,7 +723,7 @@
 .fa-search:before{content:"\f002"}
 .fa-envelope-o:before{content:"\f003"}
 .fa-heart:before{content:"\f004"}
-.fa-star:before{content:"\f005"; rgb(64,160,203);}
+.fa-star:before{content:"\f005"; color:rgb(64,160,203);}
 .fa-star-o:before{content:"\f006"}
 .fa-user:before{content:"\f007"}
 .fa-film:before{content:"\f008"}
@@ -782,6 +782,7 @@
 .fa-map-marker:before{content:"\f041"}
 .fa-adjust:before{content:"\f042"}
 .fa-tint:before{content:"\f043"}
+.fa-edit:before{color:rgb(64,160,203);}
 .fa-edit:before,.fa-pencil-square-o:before{content:"\f044"}
 .fa-share-square-o:before{content:"\f045"}
 .fa-check-square-o:before{content:"\f046"}
