@@ -782,7 +782,11 @@
 .fa-map-marker:before{content:"\f041"}
 .fa-adjust:before{content:"\f042"}
 .fa-tint:before{content:"\f043"}
-.fa-edit:before,.fa-pencil-square-o:before{content:"\f044"}
+
+.fa-edit:before, .fa-pencil-square-o:before {
+    content: "\f044";
+    color:rgb(64,160,203);
+}
 .fa-share-square-o:before{content:"\f045"}
 .fa-check-square-o:before{content:"\f046"}
 .fa-arrows:before{content:"\f047"}
@@ -822,7 +826,7 @@
 .fa-gift:before{content:"\f06b"}
 .fa-leaf:before{content:"\f06c"}
 .fa-fire:before{content:"\f06d"}
-.fa-eye:before{content:"\f06e"}
+.fa-eye:before{content:"\f06e"; color:rgb(64,160,203);}
 .fa-eye-slash:before{content:"\f070"}
 .fa-warning:before,.fa-exclamation-triangle:before{content:"\f071"}
 .fa-plane:before{content:"\f072"}
@@ -928,7 +932,7 @@
 .fa-umbrella:before{content:"\f0e9"}
 .fa-paste:before,.fa-clipboard:before{content:"\f0ea"}
 .fa-lightbulb-o:before{content:"\f0eb"}
-.fa-exchange:before{content:"\f0ec"}
+.fa-exchange:before{content:"\f0ec"; color:rgb(64,160,203);}
 .fa-cloud-download:before{content:"\f0ed"}
 .fa-cloud-upload:before{content:"\f0ee"}
 .fa-user-md:before{content:"\f0f0"}
