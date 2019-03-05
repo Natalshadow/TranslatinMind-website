@@ -917,7 +917,7 @@
 .fa-pinterest-square:before{content:"\f0d3"}
 .fa-google-plus-square:before{content:"\f0d4"}
 .fa-google-plus:before{content:"\f0d5"}
-.fa-money:before{content:"\f0d6"}
+.fa-money:before{content:"\f0d6"; color:rgb(64,160,203);}
 .fa-caret-down:before{content:"\f0d7"}
 .fa-caret-up:before{content:"\f0d8"}
 .fa-caret-left:before{content:"\f0d9"}
