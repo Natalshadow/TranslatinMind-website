@@ -123,7 +123,7 @@
 .icon-basic-pencil-ruler:before{content:"\e1b2"}
 .icon-basic-pencil-ruler-pen:before{content:"\e1b3"}
 .icon-basic-photo:before{content:"\e1b4"}
-.icon-basic-picture:before{content:"\e1b5"; color:rgb(64,160,203);}
+.icon-basic-picture:before{content:"\e1b5"}
 .icon-basic-picture-multiple:before{content:"\e1b6"}
 .icon-basic-pin1:before{content:"\e1b7"}
 .icon-basic-pin2:before{content:"\e1b8"}
@@ -152,7 +152,7 @@
 .icon-basic-spread-text-bookmark:before{content:"\e1d0"}
 .icon-basic-star:before{content:"\e1d1"}
 .icon-basic-tablet:before{content:"\e1d2"}
-.icon-basic-target:before{content:"\e1d3"; color:rgb(64,160,203);}
+.icon-basic-target:before{content:"\e1d3"}
 .icon-basic-todo:before{content:"\e1d4"}
 .icon-basic-todo-pen:before{content:"\e1d5"}
 .icon-basic-todo-pencil:before{content:"\e1d6"}
@@ -782,16 +782,6 @@
 .fa-map-marker:before{content:"\f041"}
 .fa-adjust:before{content:"\f042"}
 .fa-tint:before{content:"\f043"}
-.fa-edit:before{color:rgb(64,160,203);}
-.fa-money{color:rgb(64,160,203);}
-.fa-crosshairs{color:rgb(64,160,203);}
-.fa-rocket{color:rgb(64,160,203);}
-.fa-exchange{color:rgb(64,160,203);}
-.fa-eye{color:rgb(64,160,203);
-.fa-random{color:rgb(64,160,203);}
-.fa-language{color:rgb(64,160,203);}
-
-
 .fa-edit:before,.fa-pencil-square-o:before{content:"\f044"}
 .fa-share-square-o:before{content:"\f045"}
 .fa-check-square-o:before{content:"\f046"}
@@ -814,7 +804,7 @@
 .fa-check-circle:before{content:"\f058"}
 .fa-question-circle:before{content:"\f059"}
 .fa-info-circle:before{content:"\f05a"}
-.fa-crosshairs:before{content:"\f05b"}
+.fa-crosshairs:before{content:"\f05b"; color:rgb(64,160,203);}
 .fa-times-circle-o:before{content:"\f05c"}
 .fa-check-circle-o:before{content:"\f05d"}
 .fa-ban:before{content:"\f05e"}
@@ -1004,7 +994,7 @@
 .fa-shield:before{content:"\f132"}
 .fa-calendar-o:before{content:"\f133"}
 .fa-fire-extinguisher:before{content:"\f134"}
-.fa-rocket:before{content:"\f135"}
+.fa-rocket:before{content:"\f135"; color:rgb(64,160,203);}
 .fa-maxcdn:before{content:"\f136"}
 .fa-chevron-circle-left:before{content:"\f137"}
 .fa-chevron-circle-right:before{content:"\f138"}
